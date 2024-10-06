@@ -57,11 +57,12 @@ Deployment создан, количество реплик равно трём.
 Nginx отвечает через сервис по порту 9001, multitool отвечает по порту 9002.
 
 5. Ссылки на манифесты:
+   
    [Манифест Deployment](https://github.com/PatKolzin/kuber-1.4/blob/main/src/deployment.yml)
 
    [Манифест Service](https://github.com/PatKolzin/kuber-1.4/blob/main/src/service.yml)
 
-   [Манифест Pod]https://github.com/PatKolzin/kuber-1.4/blob/main/src/pod.yml
+   [Манифест Pod](https://github.com/PatKolzin/kuber-1.4/blob/main/src/pod.yml)
 
 ### 2. Создать Service и обеспечить доступ к приложениям снаружи кластера
 
@@ -77,4 +78,4 @@ Nginx отвечает через сервис по порту 9001, multitool �
 
 Приложения доступны по локальному IP ноды, на порту 30001 отвечает nginx, на порту 30002 отвечает multitool.
 
-3. Ссылка на [Манифест Service](https://github.com/PatKolzin/kuber-1.4/blob/main/src/service-nodeport.yml)
+3. Ссылка на [Манифест Service-NodePort](https://github.com/PatKolzin/kuber-1.4/blob/main/src/service-nodeport.yml)
