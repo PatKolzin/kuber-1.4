@@ -56,7 +56,7 @@ Deployment создан, количество реплик равно трём.
 
 Nginx отвечает через сервис по порту 9001, multitool отвечает по порту 9002.
 
-5. Ссылка на манифест Deployment - https://github.com/DemoniumBlack/fedorchukds-devops-33-39/blob/main/SRC/deployment.yaml
+5. Ссылка на манифест - [Deployment](https://github.com/PatKolzin/kuber-1.4/blob/main/src/deployment.yml)
 
    Ссылка на манифест Service - https://github.com/DemoniumBlack/fedorchukds-devops-33-39/blob/main/SRC/service.yaml
 
